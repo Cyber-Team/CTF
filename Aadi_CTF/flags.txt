@@ -1,0 +1,8 @@
+analyze_meta : ctf_{hidden_metadata_flag}
+bin_exploit : ctf_{SUID_BiNary_ExPLOit_Flag}
+data_Log : ctf_{Logdata_Secrets}
+env_var : ctf_{ExTraCT_Env_VarIABle}
+file_escalate : ctf_{SuDo_FILe_AcCESs_ExPloIt}
+insider-exfiltration : ctf_{Sneaky_Hidden_Secrets_123}
+password_bin : ctf_{cYBer_tEAm_AdiTi_47}
+sudo_misconf : ctf_{Escalate_To_Sudo}
