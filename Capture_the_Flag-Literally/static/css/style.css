@@ -1,0 +1,86 @@
+/* General styles */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1, p {
+    text-align: center;
+}
+
+/* Glitch effect for the login title */
+.glitch {
+    font-size: 48px;
+    color: #00FF00;
+    position: relative;
+    display: inline-block;
+    font-family: 'Courier New', monospace;
+    animation: glitch-animation 1s infinite;
+}
+
+.glitch:after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-shadow: -1px 0 red, 0 1px blue, 1px 0 red, 0 -1px blue;
+    animation: glitch-2 1s infinite;
+}
+
+@keyframes glitch-animation {
+    0% { transform: translate(-2px, 0); }
+    50% { transform: translate(2px, 2px); }
+    100% { transform: translate(2px, 0); }
+}
+
+@keyframes glitch-2 {
+    0% { transform: translate(0, -2px); }
+    50% { transform: translate(-2px, -2px); }
+    100% { transform: translate(0, -2px); }
+}
+
+/* Login form styling */
+.login-container {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #00FF00;
+    text-align: center;
+}
+
+input {
+    background-color: black;
+    color: white;
+    border: 1px solid #00FF00;
+    padding: 10px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #00FF00;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #009900;
+}
+
+.main-container {
+    text-align: center;
+    font-size: 36px;
+    color: #00FF00;
+}
+

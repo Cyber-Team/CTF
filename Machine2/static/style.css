@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    color: lime;
+    font-family: "Courier New", Courier, monospace;
+}
+h1, h2 {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    padding: 10px;
+}
+a {
+    color: cyan;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+textarea, input[type="text"] {
+    background-color: #333;
+    color: lime;
+}

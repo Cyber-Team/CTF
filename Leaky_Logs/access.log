@@ -1,0 +1,7 @@
+INFO 2024-10-25 12:00:00 - User 'admin' logged in.
+INFO 2024-10-25 12:05:00 - API Key: 1234-abcd-5678-efgh
+INFO 2024-10-25 12:10:00 - User 'john_doe' logged in.
+INFO 2024-10-25 12:15:00 - Password: password1234
+INFO 2024-10-25 12:20:00 - API Key: zxyw-9876-vuts-5432
+ERROR 2024-10-25 12:25:00 - Failed login attempt by 'guest' from IP 192.168.1.100
+INFO 2024-10-25 12:30:00 - DEBUG: flag_hidden_in_the_logs_ctf_{sensitive_data_leak_here}

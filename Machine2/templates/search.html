@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search</title>
+</head>
+<body>
+    <h2>Search Our Site</h2>
+    <form method="POST">
+        Search Query: <input type="text" name="query"><br>
+        <input type="submit" value="Search">
+    </form>
+    {% if output %}
+        <p>Search Results:</p>
+        <pre>{{ output }}</pre>
+    {% endif %}
+</body>
+</html>
